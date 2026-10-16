@@ -1,0 +1,9 @@
+# 빌드 결과물
+*.out
+*.exe
+*.o
+a.out
+build/
+.vscode/
+.idea/
+.DS_Store
