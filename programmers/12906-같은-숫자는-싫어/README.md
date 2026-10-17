@@ -1,4 +1,4 @@
-# 같은 숫자는 싫어
+# [Lv.1] 같은 숫자는 싫어
 
 - 링크: https://school.programmers.co.kr/learn/courses/30/lessons/12906
 - 사이트 / 난이도: 프로그래머스 / Lv.1

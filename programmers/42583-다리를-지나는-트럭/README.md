@@ -1,4 +1,4 @@
-# 다리를 지나는 트럭
+# [Lv.2] 다리를 지나는 트럭
 
 - 링크: https://school.programmers.co.kr/learn/courses/30/lessons/42583
 - 사이트 / 난이도: 프로그래머스 / Lv.2
