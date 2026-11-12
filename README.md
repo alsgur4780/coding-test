@@ -3,6 +3,8 @@
 프로그래머스, 코드트리, 백준 문제 풀이 기록입니다.
 
 > 📌 시험 직전: [시험전-정리.md](시험전-정리.md) (알고리즘 고르는 법, 템플릿, 실수 체크리스트)
+>
+> 🎯 SSAFY 17기 적성진단(11/21) 대비: [ssafy/](ssafy/) (일정, VS2017 템플릿, 9일 계획, 당일 체크리스트)
 
 ## 구조
 ```
@@ -10,6 +12,7 @@ programmers/{번호}-{문제이름}/solution.cpp, README.md  ← 레벨은 문�
 codetree/{유형}/{문제이름}/solution.cpp, README.md
 baekjoon/README.md   ← 백준 풀이 알고리즘 정리 (문제마다 추가)
 templates/   ← 새 문제 시작용 템플릿
+ssafy/       ← SSAFY 적성진단 대비 (SWEA 형식 템플릿, 연습 계획)
 ```
 
 ## 진행 현황
