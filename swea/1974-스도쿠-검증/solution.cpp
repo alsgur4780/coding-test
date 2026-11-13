@@ -1,10 +1,9 @@
-#include <iostream>
-#include <cstdio>
+#include<iostream>
+#include<cstdio>
 
 using namespace std;
 int map[9][9];
 
-// 숫자가 1~9라서 chk 배열 크기는 10 (인덱스 9까지 써야 함)
 int chk_width() {
 	for (int j = 0; j < 9; j++) {	// 가로줄 체크
 		int chk[10] = { 0, };
@@ -36,7 +35,7 @@ int chk_length() {
 }
 
 int chk_3x3() {
-	for (int j = 0; j <= 6; j += 3) {	// 3x3 칸의 왼쪽 위 (j, i)
+	for (int j = 0; j <= 6; j += 3) {
 		for (int i = 0; i <= 6; i += 3) {
 			int chk[10] = { 0, };
 			for (int m = 0; m < 3; m++) {
@@ -69,10 +68,9 @@ int main(int argc, char** argv)
 		}
 
 		printf("#%d ", test_case);
-		if (chk_width() && chk_length() && chk_3x3())
+		if(chk_width() && chk_length() && chk_3x3())
 			printf("%d\n", 1);
-		else
-			printf("%d\n", 0);
+		else printf("%d\n", 0);
 	}
 	return 0;
 }
