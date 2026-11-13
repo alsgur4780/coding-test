@@ -20,18 +20,21 @@
 템플릿: [template.cpp](template.cpp) (기본) · [bfs_template.cpp](bfs_template.cpp) (격자 BFS 최단거리)
 
 ## 9일 연습 계획 (전부 SWEA)
-링크를 열려면 SWEA 로그인이 필요해요. 하루 1~2문제, **80분 안에 2문제** 감각 유지. 실제 시험은 D2~D3 + 실버 수준이라는 후기가 많아서, 모의 역량테스트 문제(11/17~19)는 시간이 오래 걸려도 괜찮아요.
+링크를 열려면 SWEA 로그인이 필요해요.
+
+**난이도 기준:** 공식 안내는 "SWEA **D2~D3** 연습문제 참고". 합격 후기도 대부분 D1~D3로 준비했고, 2번은 "D3~D4 체감"이라는 후기가 있음.
+→ **D3가 중심**, D4는 BFS/DFS/시뮬레이션 기본 문제(문제해결 기본 시리즈)만. 모의 SW 역량테스트(A형)는 선택.
 
 | 날짜 | 주제 | 문제 |
 |---|---|---|
-| 11/13(금) | 환경 세팅 + 입출력 | VS2017 설치·템플릿 빌드 확인 / [2001 파리 퇴치](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PzOCKAigDFAUq) (D2), [1954 달팽이 숫자](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PobmqAPoDFAUq) (D2) |
-| 11/14(토) | 2차원 배열 구현 | [1961 숫자 배열 회전](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5Pq-OKAVYDFAUq) (D2), [1974 스도쿠 검증](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5Psz16AYEDFAUq) (D2) |
-| 11/15(일) | 배열 탐색 + 시뮬레이션 | [1979 어디에 단어가 들어갈 수 있을까](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PuPq6AaQDFAUq) (D2), [1210 Ladder1](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14ABYKADACFAYh) (D4) |
-| 11/16(월) | BFS/DFS 기본 | [1226 미로1](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14vXUqAGMCFAYD) (D4), [1227 미로2](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14wL9KAGkCFAYD) (D4) |
-| 11/17(화) | BFS 응용 + **사전 OT(신청했다면)** | [1953 탈주범 검거](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpLlKAQ4DFAUq) (모의 역량테스트) |
-| 11/18(수) | DFS/백트래킹 | [1949 등산로 조성](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PoOKKAPIDFAUq) (모의 역량테스트) |
-| 11/19(목) | 완전탐색 + 구현 | [2117 홈 방범 서비스](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V61LqAf8DFAWu) (모의 역량테스트) |
-| 11/20(금) | **모의고사 80분** | 안 푼 D2 1개 + 위에서 틀렸던 문제 1개를 80분 재고 풀기 → 오답 복습, 장비 최종 점검. 여유 있으면 도전: [1767 프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf) |
+| 11/13(금) ✅ | 2차원 배열 기초 | [2001 파리 퇴치](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PzOCKAigDFAUq), [1954 달팽이 숫자](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PobmqAPoDFAUq), [1961 숫자 배열 회전](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5Pq-OKAVYDFAUq), [1974 스도쿠 검증](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5Psz16AYEDFAUq), [1979 어디에 단어가 들어갈 수 있을까](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PuPq6AaQDFAUq) |
+| 11/14(토) | 시뮬레이션 | [1210 Ladder1](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14ABYKADACFAYh) (D4 기본), [4615 재미있는 오셀로 게임](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWQmA4uK8ygDFAXj) (D3) |
+| 11/15(일) | 문자열 + DFS 기본 | [1215 회문1](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14QpAaAAwCFAYi) (D3), [1219 길찾기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14geLqABQCFAYD) (D4 기본) |
+| 11/16(월) | BFS 최단거리 | [1226 미로1](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14vXUqAGMCFAYD), [1227 미로2](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14wL9KAGkCFAYD) (D4 기본) |
+| 11/17(화) | **80분 모의 1회** + 사전 OT | SWEA에서 난이도 D3 필터로 안 푼 문제 2개 골라 80분 재고 풀기 |
+| 11/18(수) | 오답 복습 | 지금까지 틀렸던 문제 다시 풀기 (2001 범위, 1961 출력, 1974 체크 배열) |
+| 11/19(목) | **80분 모의 2회** / 도전 | D3 2문제 80분. 여유 있으면 [1953 탈주범 검거](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpLlKAQ4DFAUq) (모의 역량, 선택) |
+| 11/20(금) | 가볍게 + 장비 점검 | D2~D3 1~2문제, VS2017·휴대폰 거치·랜선 최종 점검 |
 | 11/21(토) | 본 진단 | 오전엔 템플릿만 한 번 손으로 써 보기 |
 
 ## 시험 당일 체크리스트
