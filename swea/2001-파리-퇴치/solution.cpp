@@ -1,4 +1,4 @@
-#include <iostream>
+#include<iostream>
 #include <cstdio>
 #define NMAX 20
 
@@ -6,7 +6,6 @@ using namespace std;
 
 int num[NMAX][NMAX];
 
-// (y, x)를 왼쪽 위로 하는 M×M 영역의 파리 합
 int chk(int y, int x, int M) {
 	int sum = 0;
 	for (int j = y; j < y + M; j++) {
@@ -14,6 +13,7 @@ int chk(int y, int x, int M) {
 			sum += num[j][i];
 		}
 	}
+
 	return sum;
 }
 
@@ -26,7 +26,7 @@ int main(int argc, char** argv)
 	for (test_case = 1; test_case <= T; ++test_case)
 	{
 		int N, M;
-		int max = 0;
+		int max = 0;;
 
 		cin >> N;
 		cin >> M;
@@ -37,9 +37,8 @@ int main(int argc, char** argv)
 			}
 		}
 
-		// 파리채가 격자 밖으로 나가지 않도록 시작 위치는 0 ~ N-M 까지만
-		for (int j = 0; j <= N - M; j++) {
-			for (int i = 0; i <= N - M; i++) {
+		for (int j = 0; j < N; j++) {
+			for (int i = 0; i < N; i++) {
 				int tmp = chk(j, i, M);
 				if (tmp > max) max = tmp;
 			}
