@@ -41,10 +41,8 @@ int main(int argc, char** argv)
 		cin >> size;
 		
 		for (int j = 0; j < 8; j++) {
-			char sen[9];	// 행의 문장 입력 받음
-			cin >> sen;
 			for (int i = 0; i < 8; i++) {
-				map[j][i] = sen[i];	// 문장에서 각 원소 추출
+				cin >> map[j][i]; // 각 원소 입력
 			}
 		}
 
