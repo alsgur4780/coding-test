@@ -49,3 +49,4 @@ SSAFY/       ← SSAFY 적성진단 대비 (SWEA 형식 템플릿, 연습 계획
 | 2026-11-17 | SWEA | [1208 Flatten](SWEA/1208-Flatten) | 구현/시뮬레이션 | D3 | ✅ |
 | 2026-11-17 | SWEA | [2805 농작물 수확하기](SWEA/2805-농작물-수확하기) | 2차원 배열/구현 | D3 | ✅ |
 | 2026-11-17 | SWEA | [1220 Magnetic](SWEA/1220-Magnetic) | 2차원 배열/구현 | D3 | ✅ |
+| 2026-11-17 | SWEA | [1211 Ladder2](SWEA/1211-Ladder2) | 시뮬레이션 | D4 | ✅ |
